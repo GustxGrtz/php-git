@@ -1,0 +1,1 @@
+novo -> criar banco projetest -> import, acha a pasta -> mudar a senha (caso for no mysql work bench)
