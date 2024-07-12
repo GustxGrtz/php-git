@@ -1,0 +1,17 @@
+CREATE DATABASE projetest;
+
+USE projetest;
+
+CREATE TABLE usuarios (
+  id int(11) NOT NULL AUTO_INCREMENT,
+  nome varchar(220) NOT NULL,
+  email varchar(220) NOT NULL,
+  PRIMARY KEY (id)
+);
+
+INSERT INTO usuarios (id, nome, email) VALUES
+(1, 'TESTE', 'teste@gmail.com');
+
+SELECT * FROM usuarios;
+
+DROP DATABASE projetest;
