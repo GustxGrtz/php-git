@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    padding: 20px;
+}
+
+.menu{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-left: 5px;
+    padding-right: 5px;
+}

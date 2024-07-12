@@ -1,0 +1,19 @@
+CREATE DATABASE php;
+
+USE php;
+
+CREATE TABLE IF NOT EXISTS prova_subs(
+idCliente INT PRIMARY KEY AUTO_INCREMENT,
+nomeCompleto varchar(50),
+cpf varchar(50),
+dataAniversario varchar(10),
+profissao varchar(20),
+email varchar(30),
+faleSobreVoce varchar(100),
+telefone varchar(50));
+
+SELECT * FROM prova_subs;
+
+INSERT INTO prova_subs (idCliente, nomeCompleto, cpf, dataAniversario, profissao, email, faleSobreVoce, telefone) VALUES (2, "André", "123456789", "15/06/2000", "teste", "teste@gmail.com", "teste", "(41)99999-9999");
+
+DROP DATABASE php;
